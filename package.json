@@ -1,0 +1,24 @@
+{
+  "name": "rss-tool",
+  "version": "1.0.0",
+  "description": "A simple Express.js server for basic rss needs",
+  "homepage": "https://github.com/dustbringer/rss-tool#readme",
+  "bugs": {
+    "url": "https://github.com/dustbringer/rss-tool/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dustbringer/rss-tool.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
