@@ -10,6 +10,6 @@ RUN npm install
 
 COPY . .
 
-CMD [ "npx", "tsc" ]
+RUN [ "npx", "tsc" ]
 
 CMD [ "npm", "run", "start" ]

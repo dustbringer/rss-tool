@@ -1,9 +1,9 @@
 services:
   rss-tool:
-    image: node-docker:latest
+    image: dustbringer/rss-tool:1.0
     container_name: rss-tool
     environment:
       - PORT=8080
     ports:
-      - 8080:8080
+      - 3098:8080
     restart: unless-stopped
