@@ -1,0 +1,9 @@
+services:
+  rss-tool:
+    image: node-docker:latest
+    container_name: rss-tool
+    environment:
+      - PORT=8080
+    ports:
+      - 8080:8080
+    restart: unless-stopped
